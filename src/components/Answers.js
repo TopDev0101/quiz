@@ -6,6 +6,7 @@ function Answers() {
     const {state, dispatch} = useContext(QuizContext);
     const {currentAnswer, currentQuestion, questions} = state;
     const question = questions[currentQuestion];
+    var a;
 
     return (
         <>
