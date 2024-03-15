@@ -3,7 +3,7 @@ import {SET_CURRENT_ANSWER, SET_ERROR} from '../reducers/types.js';
 
 function Answer(props) {
     let classes = ['answer'];
-    var a;
+    var a,b;
 
     const handleClick = e => {
         props.dispatch({
